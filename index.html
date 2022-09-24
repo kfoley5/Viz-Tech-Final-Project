@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Insta Data</title>
+        <script src="https://d3js.org/d3.v6.js"></script>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="intro">
+            <span class="gradient-text">Insta Data</span>
+                <p>Welcome to insta data; an exploration of my Instagram discover feed and 
+                    how the personal information Instagram collects translates to the content 
+                    they show me. </p>    
+                
+                <p>This analysis was done by taking a screenshot of my discover feed every day for 28 days
+                    and categorizing the content into overarching themes and focusing on the three most prevelant: "Cooking", "Netflix", and "Film." 
+                    I then downloaded data from Instagram to access their “Topics” list that they
+                    they have curated for me based on my activity. </p>
+
+                <p>Navigate the page by selecting a cateogory to see its prevelance on my discover feed,
+                    the percentage of my feed that the selected category took up, and the number of relevant Instagram "Topics."
+                    There are 28 empty frames represnting a screenshot of my discover feed on a given day. As you navigate through 
+                    the categories, only the cells in which a picture from that category existed will be highlighted. 
+
+                </p>
+            </div>
+        </div>
+
+        <div id="buttonDiv">
+            <ul>
+                <li><button id="cooking">Cooking</button></li> 
+                <li><button id="netflix">Netflix</button></li>
+                <li><button id="film">Film</button></li>  
+            </ul>
+        </div>
+        
+        <div class="dashboardContainer">
+            <div class="imgContainer"></div>
+            <div id="item1"></div>
+            <div id="item2">
+                <p>Appeared on feed:</p>
+            </div>
+            <div id="item3"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    </body>
+</html>

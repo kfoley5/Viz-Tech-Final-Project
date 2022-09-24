@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: "Futura";
+}
+
+#intro {
+    width: 100vw;
+    height: 80vh;
+    font-family: "Baskerville";
+    text-align: center;
+}
+
+p {
+    max-width: 500px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#buttonDiv {
+    width: 100vw;
+    text-align: center;
+    margin-left: -50px;
+}
+
+.dashboardContainer {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: -1;
+}
+
+#item1 {
+    flex: 0 1 250px;
+    margin-top: 100px; 
+    margin-bottom: 150px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+#item2 {
+    flex: 0 1 250px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    line-height: 0 1 250px;
+}
+
+#item3 {
+    flex: 0 1 250px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.gradient-text {
+    font-size: 100px;
+    font-family: "Futura";
+    background-color: #f3ec78;
+    background-image: linear-gradient(30deg, #f3d278, #cd2152, purple);
+    margin-top: -10px;
+    margin-left: 10px;
+    background-size: 100%;
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 100px;
+    font-family: "Futura";
+    text-anchor: middle;
+}
+
+#netflix:hover, #cooking:hover, #film:hover {
+    color: rgb(220, 219, 219);
+}
+
+#netflix:focus {
+    color: #f34646;
+    text-decoration: underline;
+    text-decoration-thickness: 4pt;
+    text-underline-offset: .5rem;
+}
+
+#cooking:focus {
+    color: #e8b348;
+    text-decoration: underline;
+    text-decoration-thickness: 4pt;
+    text-underline-offset: .5rem;
+}
+
+#film:focus {
+    color: #393380;
+    text-decoration: underline;
+    text-decoration-thickness: 4pt;
+    text-underline-offset: .5rem;
+}
+
+.imgContainer {
+    margin-top: -100px;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -10;
+}
+
+.xText {
+    color: black;
+}
+
+#item2 p {
+    visibility: hidden;
+}
+
