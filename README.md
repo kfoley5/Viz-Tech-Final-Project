@@ -1,2 +1,2 @@
 # Viz-Tech-Final-Project
-Scrolly-telling visualization of Twitter data
+Adaption of Figma prototype. A visualization of downloaded and self-collected Instagram user data. 
